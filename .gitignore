@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+assets/from-photos/
+*.log
+.idea/
+.vscode/

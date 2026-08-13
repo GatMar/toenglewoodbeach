@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Admin · Tropical Oasis availability</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="admin-page">
+  <header class="admin-top">
+    <div class="container admin-top__inner">
+      <a href="index.html" class="nav__brand">
+        <span class="nav__brand-mark" aria-hidden="true">✦</span>
+        <span class="nav__brand-text">Tropical Oasis Admin</span>
+      </a>
+      <div class="admin-top__meta">
+        <span class="admin-pill">Storage: <strong id="storage-mode-label">…</strong></span>
+        <a href="index.html" class="text-link">← Back to site</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container admin-main">
+    <!-- Login -->
+    <section class="admin-card" id="admin-login">
+      <p class="eyebrow">Hosts only</p>
+      <h1>Availability admin</h1>
+      <p>Enter the shared PIN to mark dates as booked. You and one other host can use the same PIN.</p>
+      <form id="pin-form" class="admin-pin-form" autocomplete="off">
+        <div class="field">
+          <label for="admin-pin">Admin PIN</label>
+          <input type="password" id="admin-pin" name="pin" inputmode="numeric" required placeholder="••••••••" />
+        </div>
+        <p class="form-error" id="pin-error" hidden>Incorrect PIN. Check <code>js/config.js</code> → <code>adminPin</code>.</p>
+        <button type="submit" class="btn btn--primary">Unlock</button>
+      </form>
+      <p class="admin-help">
+        Default PIN is set in <code>js/config.js</code>. Change it before go-live.
+        For both of you to see the same calendar on any phone, switch <code>storageMode</code> to <code>firebase</code> (see GO-LIVE.md).
+      </p>
+    </section>
+
+    <!-- App -->
+    <div id="admin-app" hidden>
+      <div class="admin-header-row">
+        <div>
+          <p class="eyebrow">Manage stays</p>
+          <h1>Booked dates</h1>
+          <p>After you confirm a guest inquiry by email, add their stay here so the public calendar shows those nights as booked.</p>
+        </div>
+        <button type="button" class="btn btn--ghost-dark" id="admin-logout">Lock admin</button>
+      </div>
+
+      <p class="admin-status" id="admin-status" hidden role="status"></p>
+
+      <div class="admin-grid">
+        <section class="admin-card">
+          <h2>Add booked range</h2>
+          <p class="admin-card__hint">Check-out day is free for the next guest (standard rental style).</p>
+          <form id="add-booking-form" class="admin-add-form">
+            <div class="form-row">
+              <div class="field">
+                <label for="booking-start">Check-in</label>
+                <input type="date" id="booking-start" name="start" required />
+              </div>
+              <div class="field">
+                <label for="booking-end">Check-out</label>
+                <input type="date" id="booking-end" name="end" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="booking-note">Note (private)</label>
+              <input type="text" id="booking-note" name="note" placeholder="Guest name or channel (optional)" />
+            </div>
+            <button type="submit" class="btn btn--primary">Mark as booked</button>
+          </form>
+        </section>
+
+        <section class="admin-card">
+          <h2>Current bookings</h2>
+          <ul class="admin-bookings" id="bookings-list"></ul>
+          <div class="admin-actions">
+            <button type="button" class="btn btn--ghost-dark btn--sm" id="export-json">Download bookings.json</button>
+          </div>
+        </section>
+      </div>
+
+      <section class="admin-card admin-card--cal">
+        <h2>Calendar preview</h2>
+        <p class="admin-card__hint">Same view guests see — booked nights are blocked.</p>
+        <div id="admin-calendar"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Firebase SDK (only used when storageMode is "firebase") -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/bookings-store.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
