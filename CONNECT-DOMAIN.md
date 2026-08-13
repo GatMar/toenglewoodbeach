@@ -10,11 +10,15 @@ Hosting will be **GitHub Pages** under your **GatMar** account — same pattern 
 | Step | What | Status |
 |------|------|--------|
 | 1 | Site committed on this Mac | ✅ Done |
-| 2 | Create public GitHub repo `toenglewoodbeach` | ⏳ You or Agent |
-| 3 | Push site + enable GitHub Pages | ⏳ |
-| 4 | Point GoDaddy DNS to GitHub | ⏳ You in GoDaddy |
-| 5 | Custom domain + HTTPS in GitHub Pages | ⏳ |
-| 6 | Wait for DNS (minutes–hours) | ⏳ |
+| 2 | Create public GitHub repo `toenglewoodbeach` | ✅ Done |
+| 3 | Push site to GitHub | ✅ Done |
+| 4 | Enable GitHub Pages (main / root) | ⏳ In GitHub Settings |
+| 5 | Point GoDaddy DNS to GitHub | ⏳ You in GoDaddy |
+| 6 | Custom domain + HTTPS | ⏳ |
+| 7 | Wait for DNS (minutes–hours) | ⏳ |
+
+**Repo:** https://github.com/GatMar/toenglewoodbeach  
+**Domain:** toenglewoodbeach.com
 
 ---
 
