@@ -1,0 +1,335 @@
+{
+  "airbnbUrl": "https://www.airbnb.com/rooms/46682257",
+  "vrboUrl": "https://www.vrbo.com/2132236",
+  "airbnbStats": {
+    "rating": 4.89,
+    "count": 36
+  },
+  "vrboStats": {
+    "rating": "10/10",
+    "count": 43,
+    "note": "Loved by Guests"
+  },
+  "reviews": [
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Robert",
+      "date": "July 2026",
+      "rating": 5,
+      "text": "This area was devastated by two back to back Hurricanes in 2025. We didn’t know what to expect as we had stayed in this very property in 2024. Although there was some obvious signs of storm damage in other properties. Alex’s property looked even better. It’s a quiet place with a beautiful beach and wonderful sunsets. Just what the Dr. ordered."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Aidan",
+      "date": "July 2026",
+      "rating": 5,
+      "text": "We had a wonderful stay at Alex’s place! It was clean, close to the beach, and very peaceful. Alex was a very good and responsive host. We would absolutely return!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Kamrynn Skye",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Great and nice place!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Kay",
+      "date": "July 2024",
+      "rating": 5,
+      "text": "Very nice place. Some things they said was there for a the home was not or out of. Picnic table was very worn out. Love the place."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Robert",
+      "date": "July 2024",
+      "rating": 5,
+      "text": "Alex’s place is as described. Confortable and relaxing. Short walk to a pristine beach. Nice weekend getaway 3 hours from Miami."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Julia",
+      "date": "June 2024",
+      "rating": 5,
+      "text": "We had a great time! The house was a perfect size and had everything we needed. We went to the beach at Stump Pass State Park every day, which was so close and not very busy!! If we needed something, we could just walk back to the house. We were also able to walk to the restaurants in town, which was so nice. We even found Dole Pineapple Soft Serve at the Beachcomber Trading Post (which we had 3 of our 4 nights). Again, this was a great place for us and we would definitely return. Thank you! Julia and Dave Murray"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Deanna",
+      "date": "May 2024",
+      "rating": 5,
+      "text": "Came for Memorial Day weekend and had the best time! Beach is a short 3-5 min walk and close to restaurants! We were able to catch the local shuttle to the restaurants and back with ease. Loved the fenced in yard for the dog and grill for cooking out! Alex was very responsive for some general questions and will definitely be back!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Scott",
+      "date": "January 2024",
+      "rating": 5,
+      "text": "Me and my family had a great time staying at this place. We had friends who had a different air bnb a street away from us but this house was the hang out and meeting place for us because it was so roomy and accommodating. It had everything we needed to cook and clean up after our selves."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Maryann",
+      "date": "January 2024",
+      "rating": 5,
+      "text": "Our stay at Alex’s place was perfect. It was so nice to check into  a completely remodeled home with ALL the amenities we could possibly need. The home is spotless, spacious and it actually looks like the photos."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Paula",
+      "date": "December 2023",
+      "rating": 5,
+      "text": "Beautiful inside and out!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Terry",
+      "date": "November 2023",
+      "rating": 5,
+      "text": "Alex was very friendly and accommodating. Although we had a couple of issues due to recent renovations, he was available and easy to work with."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Manuel (Manny)",
+      "date": "August 2023",
+      "rating": 5,
+      "text": "I loved the fact that each bedroom had it's own bathroom.  Great seating area for watching TV.  Kitchen was very very well equipped. Definitely will stay here again. Alex was always available to answer any question I might have had."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Anne",
+      "date": "July 2023",
+      "rating": 5,
+      "text": "Great place to spend a few days at Manasota Key.  Close to Stump Pass Park, restaurants and Public parks.   Easy walking to beaches and restaurants.  Private, fenced backyard, perfect to sit out with our golden doodle."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Susan",
+      "date": "June 2023",
+      "rating": 5,
+      "text": "We had a great experience at Tropical Oasis. The garage was perfect for storing our beach gear. The house was absolutely adorable. The beds were comfy and the kitchen was stocked with everything you could think of. I will stay at this location and at Alex’s lovely home again!!!!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Bridgette",
+      "date": "May 2023",
+      "rating": 5,
+      "text": "Clean, convenient, and great value. Alex's place was an ideal meeting spot for my family to visit me and enjoy a few days at the beach. Beds were super comfortable, AC worked well, and we loved using the grill in the private backyard. \nEverything was easy - especially love that there is a free golf cart service that will take you from the restaurants nearby to the house that runs till 11pm (Stumpy's). Publix was also 15 min drive.\nI only wish the beach directly behind the house was not private. It's a shame for beaches to be private in general. It's a bit too far of a walk down the beach with a bunch of stuff to get to the public section, but we were able to find parking most days at Stump Pass Park (2 min drive). Regardless, we were very thankful for the beach chairs, towels and umbrella, along with wagon, that came with the property.\nPerfect little getaway. Thanks!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Dawn",
+      "date": "March 2023",
+      "rating": 5,
+      "text": "We spent 2 months at this home.  The location was phenomenal;  close to Stump Pass state park and a handful of restaurants/bars.  We spent a lot of time in the beautiful fenced backyard.  Many mornings were spent on the patio drinking coffee and listening to the ocean waves.  Location is great for long walks, either on the beach or on the sidewalks.\nThe house is decorated in a cute beachy style.  We cooked quite a bit and found the kitchen to be well stocked.  The beds were so comfortable.  There are plenty of linens, pillows and bath towels.  There were beach towels as well as a beach cart with chairs, umbrella and sifters for shark tooth hunting.\nAlex and his wife are outstanding hosts.  They were so friendly and responsive.  We would return to this home, and highly recommend it to others."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Holly",
+      "date": "December 2022",
+      "rating": 4,
+      "text": "The house was fine, close to the beach  and warm. Alex was fantastic at communicating and the location was great."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Amy",
+      "date": "December 2022",
+      "rating": 4,
+      "text": "Tropical Oasis was comfortable (great beds, linens and towels), close to beach and equipped with the necessities. Manasota Key was still recovering from Ian and Stump Pass beach is closed indefinitly. Alex was responsive to questions about the place prior to rental and kept in touch regarding check in directions. The house has a nice weber grill and patio table within an enclosed fenced backyard which was sunny and private. There area few beach chairs, umbrella and house had all the basic household needs like TP, garbage bags, hand soap, dish soap etc. The washer and dryer were great so we didnt have to pack so much. The outside shower is strictly a rinse off place with cold water only and no enclosure."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Dewayne",
+      "date": "December 2022",
+      "rating": 5,
+      "text": "The house was great.  Had everything we needed.   Excellent location.  Looking forward to staying here again."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Brian",
+      "date": "November 2022",
+      "rating": 5,
+      "text": "Great, clean house that’s close to everything on Manasota Key."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Silke",
+      "date": "July 2022",
+      "rating": 5,
+      "text": "Beautiful house 😀\nPerfect location!\nYou can find shark teeth and watch dolphins and manatees at a beach just a short walking distance away 😍"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Leonardo",
+      "date": "July 2022",
+      "rating": 4,
+      "text": "Great location!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "David",
+      "date": "June 2022",
+      "rating": 5,
+      "text": "Great great location and unit.  Everything was stocked well, it was clean, and we just had a splendid time."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Berta",
+      "date": "May 2022",
+      "rating": 5,
+      "text": "Great place to stay, and close to many things around"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Madelyn",
+      "date": "November 2021",
+      "rating": 5,
+      "text": "This house is just lovely. Clean and modern with very new appliances and a well stocked kitchen for those who like to cook your own meals while on vacation. The beds are very comfortable. Everything looks and feels brand new. The walk to Stump Pass state park is lovely, with another beach area even closer than that. In my opinion, this is the best beach in the area, and I have explored a lot of the surrounding beaches, as I used to live in this area. Great kayaking nearby too! We had a wonderful time and would definitely come back."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Allison",
+      "date": "November 2021",
+      "rating": 5,
+      "text": "Great place to stay!! I could hear the waves while sitting out back around the fire pit. Very spacious and clean. Literally the ONLY thing that wasn’t there that I would have liked are TVs in the bedrooms. (I’m a sleep with the tv on kinda gal lol) Other than that very minor thing, it was perfect!! Would stay again for sure! Great communication with Alex as well."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Eric",
+      "date": "September 2021",
+      "rating": 5,
+      "text": "Awesome location. Enjoyed our stay."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Jeffrey",
+      "date": "July 2021",
+      "rating": 5,
+      "text": "Hotel-Level Beds!\nThis place is amazing and is just as described. The kitchen has everything you need to cook meals for the week. The nearby Publix will come in handy here. We stayed here for six nights so groceries were essential. There are restaurants near by but we didn’t hit any. There’s a really cool souvenir shop just a golf cart ride away as well- barefoot traders. \nThe walk to the beach isn’t bad at all, and the outdoor shower to clean sand off is perfect. You’ll need it!\nAnother great benefit is the Smart TV. Super high quality!\nThe bathrooms and linens were excellent as well- again, similar to a high end hotel feel. \nOne caveat for smaller children- watch out on the indoor stone floors- when it’s raining they are super slick, so just be prepared for that."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Mallori",
+      "date": "July 2021",
+      "rating": 5,
+      "text": "We loved this place!! It was a great area with delicious food and amazing live music near by!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Saida",
+      "date": "June 2021",
+      "rating": 5,
+      "text": "Best place ever!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Nicole",
+      "date": "June 2021",
+      "rating": 4,
+      "text": "Alex was prompt with any concerns or questions. All of the necessities were supplied and there were plenty of towels. Easy walk to the beach and local restaurants. Great location and stay!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Karry",
+      "date": "June 2021",
+      "rating": 5,
+      "text": "Excellent home, and perfect location!"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Chet",
+      "date": "May 2021",
+      "rating": 5,
+      "text": "Great location with everything you need"
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Jessica",
+      "date": "February 2021",
+      "rating": 5,
+      "text": "We enjoyed our stay at Alex's place. The house was very clean and stylish and had comfortable beds. Of course, one of the best features of the house is its proximity to Stump Pass Beach State Park. We were able to walk into the park every day, where we hiked, explored the beaches, and used the kayak launch to put in our paddle boards so we could paddle around lemon bay. This was especially nice because the park has limited parking. The house is also a very short (2 minute) walk to the beach, although we preferred walking the few extra minutes to the state park. We would definitely stay here again. Highly recommend."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Doug",
+      "date": "January 2021",
+      "rating": 5,
+      "text": "Check in was easy with a lockbox. House was absolutely spotless. Kitchen was well equipped with everything needed to cook in. Bed was very comfortable and with two bathrooms makes it perfect for two couples or a family of four to six. Backyard has a fire pit and a gas grill. Beach is a 3 minute walk. Very safe and quiet location. Restaurants are a ten or fifteen minute walk, but there is a free shuttle that stops 150’ from the house. One of the nicer places on the island."
+    },
+    {
+      "platform": "Airbnb",
+      "listingUrl": "https://www.airbnb.com/rooms/46682257",
+      "name": "Elisa",
+      "date": "December 2020",
+      "rating": 5,
+      "text": "Tropical Oasis it is the perfect vacation destination.  We spent our Christmas and a few more days there and didn’t want to leave! The house has everything for a great stay. The beds are super comfortable, the bathrooms are well decorated and the house is spacious, nice decoration and many good amenities. It has a delicious backyard, perfect for barbecues, enjoying the fire pit and watching the sun go down.  The house is 2 minutes walking from a perfect beach that has one of the best sunsets we've ever seen!  Communication with host very easy and check in and check out without complication. We will definitely be back!"
+    },
+    {
+      "platform": "Vrbo",
+      "listingUrl": "https://www.vrbo.com/2132236",
+      "name": "Kathy T.",
+      "date": "March 2026",
+      "rating": 5,
+      "text": "Loved it! Great location! Very roomy, large backyard, easy walk to the beach!"
+    },
+    {
+      "platform": "Vrbo",
+      "listingUrl": "https://www.vrbo.com/2132236",
+      "name": "Robert M.",
+      "date": "September 2024",
+      "rating": 5,
+      "text": "This is our second time staying here. It's incredibly convenient to bring our dog and it's a super close walk to the beach. There are restaurants and other amenities nearby."
+    },
+    {
+      "platform": "Vrbo",
+      "listingUrl": "https://www.vrbo.com/2132236",
+      "name": "A Vrbo guest",
+      "date": "June 2024",
+      "rating": 5,
+      "text": "This place was perfect for my family and doggies! Very clean and updated. Spacious fenced in backyard was perfect to play games and roast s'mores. We were able to grill outside and cook in the kitchen with ease. The beach is a very short distance away and easily walkable."
+    },
+    {
+      "platform": "Vrbo",
+      "listingUrl": "https://www.vrbo.com/2132236",
+      "name": "Leigh B.",
+      "date": "2024",
+      "rating": 5,
+      "text": "Very comfortable, quiet, new remodel, clean, attractive, well stocked home. Host super nice and helpful. Easy walk to gorgeous beach. My only complaint is if you have a dog, the back yard is great but there are large gaps in the fence and under it making it not at all secure."
+    }
+  ]
+}

@@ -374,29 +374,44 @@
       </div>
     </section>
 
-    <!-- Reviews & testimonials (real guest words only — no sample quotes) -->
+    <!-- Reviews as posted on Airbnb and Vrbo -->
     <section class="section reviews" id="reviews" aria-labelledby="reviews-heading">
       <div class="container">
         <div class="section__header section__header--center">
           <p class="eyebrow">Reviews &amp; testimonials</p>
           <h2 id="reviews-heading">What guests say about Tropical Oasis</h2>
           <p class="section__intro">
-            We only post real words from real stays. As guests share feedback, their notes will appear here.
+            Real guest words, as posted on Airbnb and Vrbo, with the month they were listed. We don’t write these — they come from stays at 1200 Gulf Blvd.
           </p>
         </div>
 
-        <div class="reviews-empty" id="reviews-list">
-          <p class="reviews-empty__text">
-            No published reviews yet — and that’s okay. We’re building this page with honesty.
-          </p>
-          <p class="reviews-empty__hint">
-            Stayed with us? Please
-            <a href="#guestbook">sign the digital guestbook</a>
-            or email a testimonial to
-            <a href="mailto:stay@toenglewoodbeach.com" data-display-email>stay@toenglewoodbeach.com</a>
-            and we’ll gladly feature it here (with your permission).
-          </p>
+        <div class="review-stats" id="review-stats" hidden>
+          <a class="review-stat" id="stat-airbnb" href="https://www.airbnb.com/rooms/46682257" target="_blank" rel="noopener noreferrer">
+            <span class="review-stat__platform">Airbnb</span>
+            <strong id="stat-airbnb-rating">4.89</strong>
+            <span id="stat-airbnb-count">36 reviews</span>
+          </a>
+          <a class="review-stat" id="stat-vrbo" href="https://www.vrbo.com/2132236" target="_blank" rel="noopener noreferrer">
+            <span class="review-stat__platform">Vrbo</span>
+            <strong id="stat-vrbo-rating">10/10</strong>
+            <span id="stat-vrbo-count">Loved by Guests</span>
+          </a>
         </div>
+
+        <div class="review-filters" role="tablist" aria-label="Filter reviews by platform">
+          <button type="button" class="review-filter is-active" data-review-filter="all">All</button>
+          <button type="button" class="review-filter" data-review-filter="Airbnb">Airbnb</button>
+          <button type="button" class="review-filter" data-review-filter="Vrbo">Vrbo</button>
+        </div>
+
+        <div class="review-shots" id="reviews-list" aria-live="polite"></div>
+
+        <p class="reviews-note">
+          Guest comments are shown as posted on each platform. Vrbo currently lists 43 verified reviews (10/10, Loved by Guests); we include every Airbnb review plus Vrbo comments we could retrieve in full.
+          Stayed with us? <a href="#guestbook">Sign the guestbook</a>
+          or email
+          <a href="mailto:stay@toenglewoodbeach.com" data-display-email>stay@toenglewoodbeach.com</a>.
+        </p>
       </div>
     </section>
 
