@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=20260821-noreviews" />
+  <link rel="stylesheet" href="css/styles.css?v=20260821-noguest" />
 </head>
 <body>
   <!-- Navigation -->
@@ -35,7 +35,6 @@
         <ul class="nav__links">
           <li><a href="#about">Cottage</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#guestbook">Guestbook</a></li>
           <li><a href="#location">Beach</a></li>
           <li><a href="#restaurants">Dining</a></li>
         </ul>
@@ -93,7 +92,6 @@
         </div>
         <div class="hero__actions">
           <a href="#gallery" class="btn btn--primary">View photos</a>
-          <a href="#guestbook" class="btn btn--ghost">Sign the guestbook</a>
         </div>
         <ul class="hero__stats" aria-label="Property highlights">
           <li><strong>2</strong> bedrooms</li>
@@ -374,8 +372,8 @@
       </div>
     </section>
 
-    <!-- Digital guestbook -->
-    <section class="section guestbook" id="guestbook" aria-labelledby="guestbook-heading">
+    <!-- Digital guestbook — unpublished until Marina asks to publish it -->
+    <section class="section guestbook" id="guestbook" hidden aria-labelledby="guestbook-heading">
       <div class="container">
         <div class="section__header section__header--center">
           <p class="eyebrow">Digital guestbook</p>
@@ -558,7 +556,6 @@
         <ul>
           <li><a href="#about">The cottage</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#guestbook">Guestbook</a></li>
           <li><a href="#location">Beach access</a></li>
           <li><a href="#restaurants">Nearby dining</a></li>
         </ul>
@@ -589,9 +586,9 @@
   <!-- Firebase SDK (used when storageMode is "firebase" in js/config.js) -->
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
-  <script src="js/config.js?v=20260821-noreviews"></script>
-  <script src="js/bookings-store.js?v=20260821-noreviews"></script>
-  <script src="js/calendar.js?v=20260821-noreviews"></script>
-  <script src="js/main.js?v=20260821-noreviews"></script>
+  <script src="js/config.js?v=20260821-noguest"></script>
+  <script src="js/bookings-store.js?v=20260821-noguest"></script>
+  <script src="js/calendar.js?v=20260821-noguest"></script>
+  <script src="js/main.js?v=20260821-noguest"></script>
 </body>
 </html>
