@@ -1,6 +1,9 @@
 .DS_Store
 **/.DS_Store
 assets/from-photos/
+assets/archive/
 *.log
 .idea/
 .vscode/
+
+.tmp/

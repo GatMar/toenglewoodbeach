@@ -42,6 +42,8 @@ Tip: use short lowercase names with hyphens, e.g. `living-room.jpg`, `sunset-yar
 
 The site loads this file automatically. Keep the existing exterior/kitchen/etc. images as long as you like, or replace those files in `assets/images/` with real photos using the **same filenames** for an instant upgrade (no JSON edit needed for hero/about sections).
 
+Old listing photos (ipixx tour, outdated interiors, aerials) were taken off the site and GitHub. Copies live only on this Mac in **`assets/archive/old-photos/`** (not deployed).
+
 ## 4. Quick win without renaming everything
 
 Overwrite these placeholders with your real shots (same names):
