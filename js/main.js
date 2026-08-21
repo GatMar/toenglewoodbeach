@@ -631,11 +631,6 @@
           : data.vrboStats.count + " reviews";
       }
     }
-    const airbnbLink = document.getElementById("stat-airbnb");
-    const vrboLink = document.getElementById("stat-vrbo");
-    if (airbnbLink && data.airbnbUrl) airbnbLink.href = data.airbnbUrl;
-    if (vrboLink && data.vrboUrl) vrboLink.href = data.vrboUrl;
-
     function render(filter) {
       const rows = filter === "all" ? list : list.filter((item) => item.platform === filter);
       if (!rows.length) {
@@ -646,7 +641,6 @@
         .map((item) => {
           const platform = item.platform === "Vrbo" ? "Vrbo" : "Airbnb";
           const slug = platform.toLowerCase();
-          const href = item.listingUrl || (platform === "Vrbo" ? data.vrboUrl : data.airbnbUrl) || "#";
           return `
             <article class="review-shot review-shot--${slug}">
               <div class="review-shot__stamp">
@@ -658,7 +652,6 @@
               <footer>
                 <strong>${escapeHtml(item.name)}</strong>
                 <span>Listed ${escapeHtml(item.date || "")}</span>
-                <a href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">View on ${escapeHtml(platform)}</a>
               </footer>
             </article>`;
         })

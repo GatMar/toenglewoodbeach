@@ -741,11 +741,6 @@ textarea {
   box-shadow: 5px 5px 0 color-mix(in srgb, var(--turquoise-500) 55%, var(--sand-900));
 }
 
-.review-stat:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 7px 7px 0 color-mix(in srgb, var(--turquoise-500) 55%, var(--sand-900));
-}
-
 .review-stat__platform {
   font-size: 0.78rem;
   font-weight: 700;
@@ -907,14 +902,9 @@ textarea {
   font-size: 0.92rem;
 }
 
-.review-shot footer span,
-.review-shot footer a {
+.review-shot footer span {
   font-size: 0.78rem;
   color: var(--ink-soft);
-}
-
-.review-shot footer a:hover {
-  color: var(--turquoise-700);
 }
 
 .reviews-grid {
@@ -2876,8 +2866,7 @@ a.sister-card:hover {
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .review-shot,
-  .review-shot:nth-child(n),
-  .review-stat:hover {
+  .review-shot:nth-child(n) {
     transform: none;
   }
 
