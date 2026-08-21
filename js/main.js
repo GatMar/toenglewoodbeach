@@ -580,99 +580,9 @@
     });
   }
 
-  /* ---------- Reviews as posted on Airbnb / Vrbo ---------- */
-  function stars(n) {
-    const filled = Math.max(0, Math.min(5, Number(n) || 0));
-    return "★".repeat(filled) + "☆".repeat(5 - filled);
-  }
-
-  function reviewSortKey(dateStr) {
-    const months = {
-      january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
-      july: 7, august: 8, september: 9, october: 10, november: 11, december: 12,
-    };
-    const s = String(dateStr || "");
-    const m = s.match(/([A-Za-z]+)\s+(\d{4})/);
-    if (m) return Number(m[2]) * 100 + (months[m[1].toLowerCase()] || 0);
-    const y = s.match(/(\d{4})/);
-    return y ? Number(y[1]) * 100 : 0;
-  }
-
-  async function loadReviews() {
-    const root = document.getElementById("reviews-list");
-    if (!root) return;
-
-    let data = { reviews: [] };
-    try {
-      const res = await fetch("data/reviews.json", { cache: "no-store" });
-      if (res.ok) data = await res.json();
-    } catch (err) {
-      console.warn("Reviews JSON not loaded", err);
-    }
-
-    const list = Array.isArray(data.reviews) ? data.reviews.slice() : [];
-    list.sort((a, b) => reviewSortKey(b.date) - reviewSortKey(a.date));
-
-    const stats = document.getElementById("review-stats");
-    if (stats && list.length) stats.hidden = false;
-    if (data.airbnbStats) {
-      const r = document.getElementById("stat-airbnb-rating");
-      const c = document.getElementById("stat-airbnb-count");
-      if (r) r.textContent = String(data.airbnbStats.rating);
-      if (c) c.textContent = data.airbnbStats.count + " reviews";
-    }
-    if (data.vrboStats) {
-      const r = document.getElementById("stat-vrbo-rating");
-      const c = document.getElementById("stat-vrbo-count");
-      if (r) r.textContent = String(data.vrboStats.rating);
-      if (c) {
-        c.textContent = data.vrboStats.note
-          ? data.vrboStats.note + " · " + data.vrboStats.count + " reviews"
-          : data.vrboStats.count + " reviews";
-      }
-    }
-    function render(filter) {
-      const rows = filter === "all" ? list : list.filter((item) => item.platform === filter);
-      if (!rows.length) {
-        root.innerHTML = `<p class="reviews-empty__hint">No reviews in this view yet.</p>`;
-        return;
-      }
-      root.innerHTML = rows
-        .map((item) => {
-          const platform = item.platform === "Vrbo" ? "Vrbo" : "Airbnb";
-          const slug = platform.toLowerCase();
-          return `
-            <article class="review-shot review-shot--${slug}">
-              <div class="review-shot__stamp">
-                <span class="review-shot__platform">As posted on ${escapeHtml(platform)}</span>
-                <span class="review-shot__date">${escapeHtml(item.date || "")}</span>
-              </div>
-              <div class="review-shot__stars" aria-label="${item.rating} out of 5 stars">${stars(item.rating)}</div>
-              <blockquote><p>${escapeHtml(item.text)}</p></blockquote>
-              <footer>
-                <strong>${escapeHtml(item.name)}</strong>
-                <span>Listed ${escapeHtml(item.date || "")}</span>
-              </footer>
-            </article>`;
-        })
-        .join("");
-    }
-
-    render("all");
-
-    document.querySelectorAll("[data-review-filter]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        document.querySelectorAll("[data-review-filter]").forEach((b) => b.classList.remove("is-active"));
-        btn.classList.add("is-active");
-        render(btn.getAttribute("data-review-filter") || "all");
-      });
-    });
-  }
-
   /* Boot bookings + gallery */
   async function boot() {
     loadGallery();
-    loadReviews();
 
     if (!window.BookingsStore) return;
     BookingsStore.subscribe((ranges) => {
